@@ -6,10 +6,10 @@ public class Player : MonoBehaviour
 {
     // You can choose the speed in Unity by transferring the script to the object.
 
-    public float WalkSpeed; 
-    public float rotationSpeed;
-    public float minYRotation;
-    public float maxYRotation;
+    public float WalkSpeed = 0.03f; 
+    public float rotationSpeed = 1.0f;
+    public float minYRotation = -80f;
+    public float maxYRotation = 80f;
 
     private float currentYRotation = 0f;
 
